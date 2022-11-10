@@ -1,4 +1,5 @@
 FROM python:3
+MAINTAINER Rahul Jadhav
 RUN pip install django==3.2
 
 COPY . .
